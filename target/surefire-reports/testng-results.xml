@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="14076" started-at="2018-08-21T03:49:53Z" finished-at="2018-08-21T03:50:07Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="14076" started-at="2018-08-21T03:49:53Z" finished-at="2018-08-21T03:50:07Z">
+      <class name="com.qa.restTest.WeatherGETTest">
+        <test-method status="PASS" signature="getWeatherDetailsWithCorrectCityNameTest()[pri:0, instance:com.qa.restTest.WeatherGETTest@67b64c45]" name="getWeatherDetailsWithCorrectCityNameTest" duration-ms="2513" started-at="2018-08-21T03:50:04Z" finished-at="2018-08-21T03:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherDetailsWithCorrectCityNameTest -->
+        <test-method status="PASS" signature="getWeatherDetailsWithInCorrectCityNameTest()[pri:0, instance:com.qa.restTest.WeatherGETTest@67b64c45]" name="getWeatherDetailsWithInCorrectCityNameTest" duration-ms="0" started-at="2018-08-21T03:50:07Z" finished-at="2018-08-21T03:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherDetailsWithInCorrectCityNameTest -->
+      </class> <!-- com.qa.restTest.WeatherGETTest -->
+      <class name="com.qa.restTest.GetTest">
+        <test-method status="PASS" signature="getWeatherDetailsWithCorrectCity()[pri:0, instance:com.qa.restTest.GetTest@3796751b]" name="getWeatherDetailsWithCorrectCity" duration-ms="9340" started-at="2018-08-21T03:49:53Z" finished-at="2018-08-21T03:50:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherDetailsWithCorrectCity -->
+        <test-method status="PASS" signature="getWeatherDetailsWithInCorrectCity()[pri:0, instance:com.qa.restTest.GetTest@3796751b]" name="getWeatherDetailsWithInCorrectCity" duration-ms="2099" started-at="2018-08-21T03:50:02Z" finished-at="2018-08-21T03:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherDetailsWithInCorrectCity -->
+      </class> <!-- com.qa.restTest.GetTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

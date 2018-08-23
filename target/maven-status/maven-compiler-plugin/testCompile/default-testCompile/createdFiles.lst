@@ -1,0 +1,5 @@
+com\qa\restTest\CreateCustomerPostCall.class
+com\qa\restTest\PostCallPracto.class
+com\qa\restTest\WeatherGETTest.class
+com\qa\restTest\GetTest.class
+com\qa\restTest\PostCallWithJavaObject.class

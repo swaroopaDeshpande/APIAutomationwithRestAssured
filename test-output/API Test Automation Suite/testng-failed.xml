@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [API Test Automation Suite]">
+  <test thread-count="5" name="API Test cases (failed)">
+    <classes>
+      <class name="com.qa.restTest.CreateCustomerPostCall">
+        <methods>
+          <include name="createCustomerTest"/>
+        </methods>
+      </class> <!-- com.qa.restTest.CreateCustomerPostCall -->
+    </classes>
+  </test> <!-- API Test cases (failed) -->
+</suite> <!-- Failed suite [API Test Automation Suite] -->

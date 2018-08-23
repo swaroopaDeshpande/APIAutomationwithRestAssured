@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="API Test Automation Suite">
+
+	<test name="API Test cases ">
+		<classes>
+			<class name="com.qa.restTest.CreateCustomerPostCall" />
+			<class name="com.qa.restTest.GetTest" />
+			<class name="com.qa.restTest.PostCallPracto" />
+			<class name="com.qa.restTest.PostCallWithJavaObject" />
+			<class name="com.qa.restTest.WeatherGETTest" />
+
+		</classes>
+
+	</test>
+</suite>
